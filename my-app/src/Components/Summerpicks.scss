@@ -1,0 +1,135 @@
+.summer__container{
+    background-color:none;
+    height: 50vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-radius: 2em;
+    gap: 1em;
+    margin: 2rem 0;
+    
+}
+.box1 .box1__name{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    z-index: 10;
+    bottom: 0%;
+    height: 18%;
+    font-size: 1rem;
+    font-weight: 650;
+    color:white;
+    justify-content: center;
+}
+.summer_right{
+    height: auto;
+    width: auto;
+    border-radius: 2em;
+    background-color: none;
+    display: grid;
+    gap: 0.5em;
+    overflow: hidden;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: inherit;
+    grid-row: 1/3;
+    transition: ease 0.2s;
+    position: relative;
+    img{
+        position: absolute;
+        width: 100%;
+    }
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: inherit;
+    
+    overflow: hidden;
+    position: relative;
+    img{
+        position: absolute;
+        width: 100%;
+        object-fit: cover;
+    }
+    .box2__name{
+        position: absolute;
+        text-align: center;
+        align-items: center;
+        z-index: 10;
+        bottom: 0%;
+        height: 18%;
+        font-size: 1rem;
+        font-weight: 650;
+        color:white;
+        justify-content: center;
+    }
+}
+.box3{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: inherit;
+    position: relative;
+    overflow: hidden;
+    img{
+        position: absolute;
+        width: 100%;
+        object-fit: cover;
+    }
+    .box3__name{
+        position: absolute;
+        text-align: center;
+        align-items: center;
+        z-index: 10;
+        bottom: 0%;
+        height: 18%;
+        font-size: 1rem;
+        font-weight: 650;
+        color:white;
+        justify-content: center;
+    }
+
+}
+
+.summer_left{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./images/lemonade.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-position: 20% 0;
+}
+.summer_left-p{
+    font-family: "Lobster Two",cursive;
+    font-size: 2rem;
+    letter-spacing: 0.5em;
+    position: absolute;
+    font-weight: bold;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    span{
+        color: red;
+        font-family: inherit;
+        position: relative;
+    }
+    border-radius: 2em;
+}
+

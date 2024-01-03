@@ -1,0 +1,51 @@
+.nav{
+    height: 7rem;
+    display: flex;
+    letter-spacing: 0.2rem;
+    position: relative;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    a{
+        text-decoration: none;
+    }
+    .LOGO_items{
+        padding: 45px;
+        svg{
+            color:black;
+            font-size: 30px;
+            border: none;
+            cursor: pointer;
+        }
+        align-self: stretch;
+        .LL{
+            font-family: "Lobster Two",cursive;
+            font-size: 1.3rem;
+            padding-left:4px;
+            color: black;
+            cursor: pointer;
+        }
+        .LL:hover{
+            color:red;
+        }
+    }
+    .nav_items{
+        background: none;
+        letter-spacing: 2.5px;
+        font-weight: bold;
+        font-size: 20px;
+        a{
+            padding-right: 10px;
+        }
+        a:hover{
+            color: red;
+        }
+    }
+}
+.change{
+    height: 2rem;
+    width: fit-content;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}

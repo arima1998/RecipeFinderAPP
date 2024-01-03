@@ -1,0 +1,141 @@
+
+
+.cuisine{
+    height: 600px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5% 0%;
+    border-radius: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 4fr;
+    row-gap:0.5rem;
+    column-gap: 0.5rem;
+}
+.cuisine-head{
+    background:linear-gradient(to right,#c31432,#240b36);
+    grid-column: 1/5;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: "Lobster Two",cursive;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: capitalize;
+}
+.cuisine-box1{
+    cursor: pointer;
+    // background-color: blue;
+    border-radius: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg{
+        padding: 1.4rem;
+        border-radius: 2rem;
+        font-size: 2.5rem;
+        position: absolute;
+        transform: translate(20%,-50%);
+    }
+    .cuisine-box1-label{
+        position: relative;
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: "Lobster Two",cursive;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+
+}
+.cuisine-box2{
+    cursor: pointer;
+    // background-color: blue;
+    border-radius: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg{
+        padding: 1.4rem;
+        border-radius: 2rem;
+        font-size: 2.5rem;
+        position: absolute;
+        transform: translate(20%,-50%);
+    }
+    .cuisine-box2-label{
+        position: relative;
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: "Lobster Two",cursive;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+}
+.cuisine-box3{
+    cursor: pointer;
+    // background-color: blue;
+    border-radius: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg{
+        padding: 1.4rem;
+        border-radius: 2rem;
+        font-size: 2.5rem;
+        position: absolute;
+        transform: translate(20%,-50%);
+    }
+    .cuisine-box3-label{
+        position: relative;
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: "Lobster Two",cursive;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+}
+.cuisine-box4{
+    cursor: pointer;
+    // background-color: blue;
+    border-radius: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg{
+        padding: 1.4rem;
+        border-radius: 2rem;
+        font-size: 2.5rem;
+        position: absolute;
+        transform: translate(20%,-50%);
+    }
+    .cuisine-box4-label{
+        position: relative;
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: "Lobster Two",cursive;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+}
+.cuisine-gallary{
+    grid-column: 1/5;
+    border-radius: 2rem;
+    // background-color: yellow;
+
+}
+
+
